@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Animations & Storage Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="animated-button" onclick="handleClick()">Click Me!</button>
+    
+    <div class="image-container">
+        <img src="https://placekitten.com/200/200" alt="Demo Image" class="animated-image">
+    </div>
+
+    <div>
+        <label for="userColor">Select Theme Color:</label>
+        <input type="color" id="userColor" onchange="saveUserPreference()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
